@@ -10,6 +10,7 @@
 		"ghcr.io/devcontainers/features/rust:1": {},
 		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
 		"ghcr.io/devcontainers-contrib/features/act:1": {},
+		"ghcr.io/robbert229/devcontainer-features/opentofu:1": {}
 	},
 	"customizations": {
 		"vscode": {
@@ -19,11 +20,13 @@
 				"eamodio.gitlens",
 				"github.copilot",
 				"github.vscode-github-actions",
+				"hashicorp.terraform",
 				"mads-hartmann.bash-ide-vscode",
 				"matepek.vscode-catch2-test-adapter",
 				"ms-azuretools.vscode-docker",
 				"ms-vscode.cpptools-extension-pack",
 				"nomicfoundation.hardhat-solidity",
+				"pjmiravalle.terraform-advanced-syntax-highlighting",
 				"stuart.unique-window-colors",
 				"styled-components.vscode-styled-components",
 				"vscode-icons-team.vscode-icons"
