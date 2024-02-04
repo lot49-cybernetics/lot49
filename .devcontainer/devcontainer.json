@@ -1,0 +1,33 @@
+{
+	"name": "lot49",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers/features/rust:1": {},
+		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
+		"ghcr.io/devcontainers-contrib/features/act:1": {},
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"eamodio.gitlens",
+				"github.copilot",
+				"github.vscode-github-actions",
+				"mads-hartmann.bash-ide-vscode",
+				"matepek.vscode-catch2-test-adapter",
+				"ms-azuretools.vscode-docker",
+				"ms-vscode.cpptools-extension-pack",
+				"nomicfoundation.hardhat-solidity",
+				"stuart.unique-window-colors",
+				"styled-components.vscode-styled-components",
+				"vscode-icons-team.vscode-icons"
+			]		
+		}
+	}
+}
